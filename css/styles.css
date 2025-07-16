@@ -1,0 +1,70 @@
+@font-face {
+    font-family: "ir";
+    src: url(../assets/font/Compsetb.ttf);
+}
+
+
+.headline{
+    direction: rtl;
+    background-color: rgb(122, 14, 223);
+    width: 100%;
+    height: fit-content;
+
+}
+.start{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.Subset{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    gap: 10px;
+}
+
+.data{
+    background-color: blanchedalmond;
+    text-align: right;
+    height: fit-content;
+    
+}
+.iran-flag-text{
+    font-family: "ir";
+    background: linear-gradient(
+     to bottom,         
+     #239f40 33.33%,         
+     #239f40 50.33%,
+     #ffffff 26.33%,    
+     #ffffff 55.33%,
+     #da0000 66.66%,     
+     #da0000 100%
+    );
+
+  
+    -webkit-background-clip: text;
+            background-clip: text;
+
+  
+    -webkit-text-fill-color: transparent;
+            color: transparent;
+
+  
+    font-size: 8rem;
+    font-weight: 800;
+    line-height: 1;
+    margin: 0px 35px 35px 0;
+   
+  
+
+  
+}
+
+
+.data p{
+    margin: 0px 35px 50px 0px;
+}
+
