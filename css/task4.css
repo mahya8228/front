@@ -1,0 +1,169 @@
+@font-face {
+    font-family: "style";
+    src: url(../assets/font/Fontype\ Rounded\ Italic.ttf);
+}
+
+
+
+
+body{
+    background-color: rgba(190, 198, 255, 0.811);
+    font-family: "style";
+}
+
+header{
+    display: flex;
+    flex-direction: column;
+    font-size: 1em;
+    padding: 20px;
+
+}
+
+nav{
+    background-color: #0d76dff3;
+    height: fit-content;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+.did{
+    padding: 0px 16px;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    /* gap: 10px; */
+    
+}
+.qwestion{
+    
+    /* padding: 0px 50px;  */
+    width: fit-content;
+    height: fit-content;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    gap: 50px;
+    
+    
+    
+    /* margin: auto; */
+}
+
+.qwestion, .did{
+    margin: 10px 60px;
+}
+
+.click{
+    /* background-color: antiquewhite; */
+    width: fit-content;
+    height: fit-content;
+    border-radius: 15px;
+}
+
+
+
+.calendar {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
+  padding: 20px;
+}
+
+
+.day {
+
+  background-color: #f8f8ff;
+  border-radius: 12px;
+  padding: 12px;
+  text-align: center;
+  font-family: sans-serif;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.day h3{
+  font-size: 0.8em;
+  color: #666;
+}
+
+.day h1{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: end;
+    margin: auto;
+}
+
+.avator {
+  display: flex;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.avator img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  margin-left: -10px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.avator img:first-child {
+  margin-left: 0;
+}
+
+footer{
+    background-color: #696a6bf3;
+    width: 90%;
+    height: fit-content;
+    border-radius: 20px;
+    margin: 0px 50px 0px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+
+}   
+    
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.left{
+    padding: 16px;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: start;
+    gap: 10px;
+    
+}
+
+.right{
+    padding: 16px;
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: end;
+    gap: 10px;
+
+}
+
+
+nav, header, footer, .calendar{
+    width: 95%;
+    margin: auto;
+}
